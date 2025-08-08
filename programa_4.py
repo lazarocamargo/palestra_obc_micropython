@@ -1,4 +1,4 @@
-# software de voo - ANTENAS, COMM, ADCS, PAYLOAD
+# software de voo - ANTENAS, COMM, ADCS, PAYLOAD exemplo
 # com simulador de falha (pino GP28)
 
 from machine import Pin
@@ -60,4 +60,5 @@ while True:
       estado = INATIVO
     else:
       estado = MODO_NOMINAL
+
     
