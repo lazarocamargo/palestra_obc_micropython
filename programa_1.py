@@ -1,4 +1,4 @@
-# software de voo - Missao RaioSat
+# software de voo - Missao RaioSat exemplo
 
 from machine import Pin
 from utime import sleep
@@ -10,3 +10,4 @@ while True:
   sleep(0.5)
   antenas.off()
   sleep(0.5)
+
