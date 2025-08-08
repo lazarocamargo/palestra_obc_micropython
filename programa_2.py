@@ -1,4 +1,4 @@
-# software de voo - Missao RaioSat
+# software de voo - Missao RaioSat exemplo
 
 from machine import Pin
 from utime import sleep
@@ -33,4 +33,5 @@ while True:
     comm.on()
     estado = MODO_SEGURANCA
     
+
 
