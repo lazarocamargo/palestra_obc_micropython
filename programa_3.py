@@ -1,4 +1,4 @@
-# software de voo - ANTENAS, COMM, ADCS, PAYLOAD
+# software de voo - ANTENAS, COMM, ADCS, PAYLOAD exemplo
 
 from machine import Pin
 from utime import sleep
@@ -44,4 +44,5 @@ while True:
 
   if estado == MODO_NOMINAL:
     payload.on()
+
     estado = MODO_NOMINAL
